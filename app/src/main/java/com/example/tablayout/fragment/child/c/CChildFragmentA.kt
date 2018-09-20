@@ -13,6 +13,6 @@ import kotlinx.android.synthetic.main.fragment_a.*
 
 class CChildFragmentA : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState:
-    Bundle?): View? = inflater.inflate(R.layout.fragment_c, container, false)
+    Bundle?): View? = inflater.inflate(R.layout.fragment_a, container, false)
 }
 

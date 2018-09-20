@@ -9,5 +9,5 @@ import com.example.tablayout.R
 
 class BChildFragmentA : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState:
-    Bundle?): View? = inflater.inflate(R.layout.fragment_b, container, false)
+    Bundle?): View? = inflater.inflate(R.layout.fragment_a, container, false)
 }
